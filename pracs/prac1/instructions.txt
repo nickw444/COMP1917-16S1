@@ -1,0 +1,12 @@
+Test time!
+
+cd /to/the/directory/you/want/to/work/in
+cp ~nickw/public_html/1917/prac1.zip prac1.zip
+unzip prac1.zip
+cd prac1
+ls -l
+
+# Work on the files q1.c and q2.c
+# Instructions are in the files!
+# Mark with:
+./mark q1
