@@ -74,7 +74,7 @@ void serveHTML(int socket) {
         "<!DOCTYPE html>\n"
         "<html>\n"
         "   <head><title>Current Short Message</title></head>\n"
-        "   <body>The current short message 2</body>\n"
+        "   <body>To be or not to <strong>be</strong></body>\n"
         "</html>\n";
 
     // echo the http response to the console for debugging purposes
