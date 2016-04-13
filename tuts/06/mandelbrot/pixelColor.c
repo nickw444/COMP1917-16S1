@@ -1,0 +1,1 @@
+// If you put any other helper functions into pixelColor.c you must make them static.  (put the word "static" at the start of the functions' declaration and definition).
