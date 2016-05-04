@@ -1,0 +1,28 @@
+1. Explain what the following line of code will do:
+
+    #include <stdlib.h>
+
+2. What is usually the cause of this error whilst running a program written 
+   in C?
+
+   [11] Segmentation Fault
+
+
+3. If i need to compile a C program, what command do I type (For 1917)
+
+
+4. If i needed to compile multiple C files (compile and link), what 
+   command would I use?
+
+
+5. Explain what a Frame is.
+
+6. Why does the following line of code require a "&" before the variable name?
+
+    scanf("%d", &myVariable);
+
+
+7. Why is Jake's Tutorial class beating ours?
+
+
+
