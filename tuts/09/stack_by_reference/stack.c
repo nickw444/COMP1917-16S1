@@ -28,11 +28,11 @@ void push (Stack s, int value) {
 
 Stack newStack (void) {
     //allocate memory on heap to store the stack
-    Stack baby = malloc(sizeof(stack));
-    assert(baby != NULL);
-    baby->size = 0;
-    baby->maxSize = MAX_STACK;
-    return baby;
+    Stack s = malloc(sizeof(stack));
+    assert(s != NULL);
+    s->size = 0;
+    s->maxSize = MAX_STACK;
+    return s;
 }
 
 //free the memory allocated on heap for the stack

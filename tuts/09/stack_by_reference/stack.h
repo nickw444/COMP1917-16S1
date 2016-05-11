@@ -6,7 +6,7 @@
 
 #define MAX_STACK 100
 
-typedef struct _stack *Stack; //Stack is an ADT
+typedef struct _stack * Stack; //Stack is an ADT
 
 int top (Stack s);
 void pop (Stack s);
