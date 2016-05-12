@@ -22,6 +22,9 @@ void push (Stack s, int value) {
 
 Stack newStack (void) {
     //allocate memory on heap to store the stack
+    Stack s = malloc(sizeof(stack));
+    assert(s != NULL);
+    return s;
 }
 
 Stack newStackBroken1 (void) {
@@ -30,7 +33,7 @@ Stack newStackBroken1 (void) {
 }
 
 Stack newStackBroken2 (void) {
-    Stack s = malloc(sizeof(Stack))
+    Stack s = malloc(sizeof(stack))
     return s;
 }
 
